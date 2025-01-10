@@ -9,7 +9,8 @@ This project is a Java-based banking system designed to manage various account t
 •	Customer registration and tracking
 The project follows Object-Oriented Programming (OOP) principles and adheres to SOLID design standards, ensuring modular, readable, and extendable code.
 ________________________________________
-📄 Project Description
+📄 Project Description:
+
 The system simulates a banking environment with diverse account types:
 •	Savings Accounts
 •	Business Checking Accounts
@@ -23,13 +24,15 @@ Additionally, the system handles errors robustly with custom exceptions for:
 •	Duplicate account numbers.
 •	Invalid menu choices.
 ________________________________________
-⚙️ Program Structure
+⚙️ Program Structure:
+
 The project is modular, with each class representing an independent system component. For instance:
 •	BusinessCheckingAccount encapsulates business-related features.
 •	SavingsAccount focuses on savings-specific logic.
 •	The Main class serves as the user interface, presenting a comprehensive menu-driven system.
 ________________________________________
-🛠️ Programming Principles
+🛠️ Programming Principles:
+
 This project is built on the SOLID principles:
 ✅ Single Responsibility Principle
 Each class has a single responsibility. For instance, BusinessCheckingAccount is solely responsible for managing business accounts.
@@ -42,8 +45,10 @@ Interfaces like ManagementFeeAccount ensure that only necessary methods are impl
 🏭 Dependency Inversion Principle
 Factories (e.g., AccountsFactory) manage object creation, reducing direct dependencies between classes.
 ________________________________________
-🏦 Key Classes and Features
+🏦 Key Classes and Features:
+
 🔑 Core Classes
+
 1.	Account:
 Base class for all accounts. Features include:
 o	Account number
@@ -79,11 +84,13 @@ Automates account creation with predefined configurations.
 9.	ManagementFeeAccount:
 An interface that standardizes fee management methods.
 ________________________________________
-🔔 Custom Exceptions
+🔔 Custom Exceptions:
+
 •	DuplicationException: Handles duplicate account numbers.
 •	InvalidChoiceException: Catches invalid menu choices.
 ________________________________________
-🔧 Key Methods and Functionalities
+🔧 Key Methods and Functionalities:
+
 Account Management
 •	createInitialAccounts: Generates predefined accounts automatically.
 •	addAccount: Adds a new account, ensuring unique account numbers.
@@ -118,12 +125,14 @@ The system provides the following menu options:
 10.	VIP Profit Check: Verify VIP status for business accounts.
 11.	Management Fees: Display applicable fees and calculate bonuses.
 ________________________________________
-🔍 Input Validation
+🔍 Input Validation:
+
 The system ensures input correctness:
 •	Numeric inputs (e.g., account numbers, deposit amounts) must be valid.
 •	Invalid inputs trigger error messages and re-entry prompts.
 ________________________________________
-📈 Future Expandability
+📈 Future Expandability:
+
 The system is designed with scalability in mind:
 •	Easily add new account types.
 •	Introduce additional functionalities without altering existing structures.
