@@ -119,7 +119,7 @@ This project is built on the SOLID principles:
 
 ---
 
-### **Menu Structure**  
+### **🖥️ Menu Structure**  
 The system provides the following menu options:  
 1. **Create Initial Accounts**: Generate accounts automatically.  
 2. **Add a New Account**: Manually create an account (e.g., Regular, Business, Savings, or Mortgage).  
