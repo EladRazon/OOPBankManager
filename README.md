@@ -24,12 +24,15 @@ Additionally, the system handles errors robustly with custom exceptions for:
 •	Duplicate account numbers.
 •	Invalid menu choices.
 ________________________________________
-⚙️ Program Structure:
+## ⚙️ Program Structure
 
-The project is modular, with each class representing an independent system component. For instance:
-•	BusinessCheckingAccount encapsulates business-related features.
-•	SavingsAccount focuses on savings-specific logic.
-•	The Main class serves as the user interface, presenting a comprehensive menu-driven system.
+📄 **[View the complete Class Diagram (PDF)](Class%20diagram.pdf)**
+
+The project is modular, with each class representing an independent system component. Below are some key examples:
+- **`BusinessCheckingAccount`**: Encapsulates business-related features.
+- **`SavingsAccount`**: Focuses on savings-specific logic.
+- **`Main`**: Serves as the user interface, presenting a comprehensive menu-driven system.
+
 ________________________________________
 🛠️ Programming Principles:
 
