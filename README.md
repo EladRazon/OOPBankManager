@@ -1,7 +1,5 @@
 # **OOP Bank Management System**
 
----
-
 ## **📋 Project Overview**
 This project is a Java-based banking system designed to manage various account types. It offers:  
 - Account creation and management  
