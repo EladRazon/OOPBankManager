@@ -1,6 +1,6 @@
-OOP Bank Management System
+## OOP Bank Management System
 ________________________________________
-📋 Project Overview:
+## 📋 Project Overview:
 
 This project is a Java-based banking system designed to manage various account types. It offers:
 •	Account creation and management
@@ -9,7 +9,7 @@ This project is a Java-based banking system designed to manage various account t
 •	Customer registration and tracking
 The project follows Object-Oriented Programming (OOP) principles and adheres to SOLID design standards, ensuring modular, readable, and extendable code.
 ________________________________________
-📄 Project Description:
+## 📄 Project Description:
 
 The system simulates a banking environment with diverse account types:
 •	Savings Accounts
@@ -34,7 +34,7 @@ The project is modular, with each class representing an independent system compo
 - **`Main`**: Serves as the user interface, presenting a comprehensive menu-driven system.
 
 ________________________________________
-🛠️ Programming Principles:
+## 🛠️ Programming Principles:
 
 This project is built on the SOLID principles:
 ✅ Single Responsibility Principle
@@ -48,7 +48,7 @@ Interfaces like ManagementFeeAccount ensure that only necessary methods are impl
 🏭 Dependency Inversion Principle
 Factories (e.g., AccountsFactory) manage object creation, reducing direct dependencies between classes.
 ________________________________________
-🏦 Key Classes and Features:
+## 🏦 Key Classes and Features:
 
 🔑 Core Classes
 
@@ -87,12 +87,12 @@ Automates account creation with predefined configurations.
 9.	ManagementFeeAccount:
 An interface that standardizes fee management methods.
 ________________________________________
-🔔 Custom Exceptions:
+## 🔔 Custom Exceptions:
 
 •	DuplicationException: Handles duplicate account numbers.
 •	InvalidChoiceException: Catches invalid menu choices.
 ________________________________________
-🔧 Key Methods and Functionalities:
+## 🔧 Key Methods and Functionalities:
 
 Account Management
 •	createInitialAccounts: Generates predefined accounts automatically.
@@ -108,13 +108,13 @@ User Interface
 •	showMenu: Displays a comprehensive menu for user interaction.
 •	addClientToAccount: Validates and adds new clients.
 ________________________________________
-🚀 Usage Instructions
+## 🚀 Usage Instructions
 Running the System
 1.	Open the project in your preferred IDE (e.g., IntelliJ, Eclipse).
 2.	Run the Main.java file.
 3.	Follow the menu prompts to perform operations.
 ________________________________________
-Menu Structure
+## Menu Structure
 The system provides the following menu options:
 1.	Create Initial Accounts: Generate accounts automatically.
 2.	Add a New Account: Manually create an account (e.g., Regular, Business, Savings, or Mortgage).
@@ -128,13 +128,13 @@ The system provides the following menu options:
 10.	VIP Profit Check: Verify VIP status for business accounts.
 11.	Management Fees: Display applicable fees and calculate bonuses.
 ________________________________________
-🔍 Input Validation:
+## 🔍 Input Validation:
 
 The system ensures input correctness:
 •	Numeric inputs (e.g., account numbers, deposit amounts) must be valid.
 •	Invalid inputs trigger error messages and re-entry prompts.
 ________________________________________
-📈 Future Expandability:
+## 📈 Future Expandability:
 
 The system is designed with scalability in mind:
 •	Easily add new account types.
