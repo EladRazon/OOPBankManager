@@ -31,7 +31,7 @@ Additionally, the system handles errors robustly with custom exceptions for:
 ---
 
 ## **⚙️ Program Structure**  
-📄 **[View the complete Class Diagram (PDF)](Class%20diagram.pdf)**  
+📄 **[View the complete Class Diagram (PDF)](Class%20Diagram.pdf)**  
 
 The project is modular, with each class representing an independent system component. Below are some key examples:  
 - **BusinessCheckingAccount**: Encapsulates business-related features.  
