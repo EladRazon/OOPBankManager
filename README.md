@@ -122,8 +122,6 @@ The system ensures input correctness:
 - Numeric inputs (e.g., account numbers, deposit amounts) must be valid.  
 - Invalid inputs trigger error messages and re-entry prompts.
 
----
-
 ## **📈 Future Expandability**  
 The system is designed with scalability in mind:  
 - Easily add new account types.  
