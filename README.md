@@ -10,8 +10,6 @@ This project is a Java-based banking system designed to manage various account t
 
 The project follows Object-Oriented Programming (OOP) principles and adheres to SOLID design standards, ensuring modular, readable, and extendable code.
 
----
-
 ## **📄 Project Description**
 The system simulates a banking environment with diverse account types:  
 - Savings Accounts  
@@ -28,8 +26,6 @@ Additionally, the system handles errors robustly with custom exceptions for:
 - Duplicate account numbers.  
 - Invalid menu choices.
 
----
-
 ## **⚙️ Program Structure**  
 📄 **[View the complete Class Diagram (PDF)](Class%20Diagram.pdf)**  
 
@@ -38,8 +34,6 @@ The project is modular, with each class representing an independent system compo
 - **SavingsAccount**: Focuses on savings-specific logic.  
 - **Main**: Serves as the user interface, presenting a comprehensive menu-driven system.
 
----
-
 ## **🛠️ Programming Principles**  
 This project is built on the SOLID principles:  
 - ✅ **Single Responsibility Principle**: Each class has a single responsibility. For instance, BusinessCheckingAccount is solely responsible for managing business accounts.  
@@ -47,8 +41,6 @@ This project is built on the SOLID principles:
 - 🔄 **Liskov Substitution Principle**: Derived classes (e.g., SavingsAccount) can replace their base class (Account) seamlessly.  
 - 📏 **Interface Segregation Principle**: Interfaces like ManagementFeeAccount ensure that only necessary methods are implemented.  
 - 🏭 **Dependency Inversion Principle**: Factories (e.g., AccountsFactory) manage object creation, reducing direct dependencies between classes.
-
----
 
 ## **🏦 Key Classes and Features**
 
@@ -80,13 +72,9 @@ This project is built on the SOLID principles:
 - **AccountsFactory**: Automates account creation with predefined configurations.  
 - **ManagementFeeAccount**: An interface that standardizes fee management methods.
 
----
-
 ## **🔔 Custom Exceptions**
 - **DuplicationException**: Handles duplicate account numbers.  
 - **InvalidChoiceException**: Catches invalid menu choices.
-
----
 
 ## **🔧 Key Methods and Functionalities**
 
@@ -107,16 +95,12 @@ This project is built on the SOLID principles:
 - **showMenu**: Displays a comprehensive menu for user interaction.  
 - **addClientToAccount**: Validates and adds new clients.
 
----
-
 ## **🚀 Usage Instructions**
 
 ### **Running the System**  
 1. Open the project in your preferred IDE (e.g., IntelliJ, Eclipse).  
 2. Run the Main.java file.  
 3. Follow the menu prompts to perform operations.  
-
----
 
 ### **🖥️ Menu Structure**  
 The system provides the following menu options:  
@@ -131,8 +115,6 @@ The system provides the following menu options:
 9. **Top Profit Account**: Identify the most profitable regular checking account.  
 10. **VIP Profit Check**: Verify VIP status for business accounts.  
 11. **Management Fees**: Display applicable fees and calculate bonuses.
-
----
 
 ## **🔍 Input Validation**  
 The system ensures input correctness:  
