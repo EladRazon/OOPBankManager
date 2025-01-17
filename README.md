@@ -11,6 +11,7 @@ This project is a Java-based banking system designed to manage various account t
 The project follows Object-Oriented Programming (OOP) principles and adheres to SOLID design standards, ensuring modular, readable, and extendable code.
 
 ## **📄 Project Description**
+📊 **[View the complete Class Diagram (PDF)](Class%20Diagram.pdf)**  
 The system simulates a banking environment with diverse account types:  
 - Savings Accounts  
 - Business Checking Accounts  
@@ -27,7 +28,6 @@ Additionally, the system handles errors robustly with custom exceptions for:
 - Invalid menu choices.
 
 ## **⚙️ Program Structure**  
-📄 **[View the complete Class Diagram (PDF)](Class%20Diagram.pdf)**  
 
 The project is modular, with each class representing an independent system component. Below are some key examples:  
 - **BusinessCheckingAccount**: Encapsulates business-related features.  
